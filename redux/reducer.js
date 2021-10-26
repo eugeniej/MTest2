@@ -1,7 +1,7 @@
 const initialState = {};
 
 const myReducer = (state = initialState, action) => {
-    // TODO
-}
+  // TODO
+};
 
 export default myReducer;
