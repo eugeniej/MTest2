@@ -3,7 +3,8 @@
 Bienvenue sur ce test technique.
 Nous te remercions pour le temps passer sur celui-ci. 
 
-Il s'agit d'une application Expo. Il faut 
+Il s'agit d'une application Expo.
+Les consignes sont en première page de l'application. Nous te conseillons de "fork" ce projet sur ton GIT personnel.
 
 ## Installer l'application
 
