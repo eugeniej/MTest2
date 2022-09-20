@@ -1,6 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 import React from "react";
-import { ActivityIndicator, StatusBar } from "react-native";
+import { ActivityIndicator, Platform, StatusBar } from "react-native";
 import { FlatList } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { Card } from "../components/molecules/Card";
@@ -24,7 +24,9 @@ const Page = () => {
   }, [data]);
 
   return (
-    <SafeAreaViewStyled paddingTop={StatusBar.currentHeight}>
+    <SafeAreaViewStyled
+      paddingTop={Platform.OS === "android" ? 0 : StatusBar.currentHeight}
+    >
       <Container>
         {data.length > 0 ? (
           <>

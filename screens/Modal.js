@@ -29,7 +29,6 @@ const Modal = ({ route }) => {
     item.publicInformation.officeInformation.openingSchedules
   );
 
-  console.log("open", open);
   return (
     <Container>
       <ScrollView>
