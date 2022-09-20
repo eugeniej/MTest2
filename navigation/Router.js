@@ -31,7 +31,11 @@ const RootNavigator = () => {
       <Stack.Group
         screenOptions={{ presentation: "modal", headerShown: false }}
       >
-        <Stack.Screen name="Modal" component={Modal} />
+        <Stack.Screen
+          name="Modal"
+          component={Modal}
+          options={{ presentation: "modal" }}
+        />
       </Stack.Group>
     </Stack.Navigator>
   );
